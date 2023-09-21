@@ -1,0 +1,15 @@
+.container {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.container h2 {
+  color: #ffffff;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+}

@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container h1 {
+    color: #ffffff;
+    margin: 0;
+  }
+  .cardsGrid {
+    display: grid;
+    justify-items: center;
+    row-gap: 40px;
+    width: 100%;
+  }
+  @media (min-width: 500px) {
+    .cardsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 700px) {
+    .cardsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width: 950px) {
+    .cardsGrid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @media (min-width: 1200px) {
+    .cardsGrid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  .loadButton {
+    color: #ffffff;
+    background-color: #020266;
+    transition-duration: 0.5s;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .loadButton:hover {
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  .ricerca {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #ffffff;
+    background-color: #2a3239;
+    padding: 10px;
+    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+    width: 400px;
+    border: none;
+  }
+
+  .lente {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #009ece;
+    border: none;
+    height: 100%;
+    width: 15%;
+    cursor: pointer;
+  }
+
+  .lente:hover {
+    background-color: #0303a3;
+  }
+  
+  .c {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;        
+  }
