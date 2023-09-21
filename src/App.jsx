@@ -6,7 +6,7 @@ import NoPage from "./assets/pages/NoPage";
 import Header from "./assets/components/Header";
 import "./App.css";
 import Movies from "./assets/pages/Movies";
-import Series from "./assets/pages/series";
+import Series from "./assets/pages/Series";
 import Details from "./assets/pages/Details";
 import Footer from "./assets/components/Footer";
 
