@@ -15,13 +15,14 @@ export default function App() {
     <div className="container">
       <Header />
         <Routes>
-          <Route exact path="/home" Component={Home} />
-          <Route path="/about" Component={About} />
-          <Route path="/contact" Component={Contact} />
-          <Route path="*" Component={NoPage} />
-          <Route path="/movies" Component={Movies} />
-          <Route path="/series" Component={Series} />
-          <Route path="/details/:type/:id/:title" Component={Details} />
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/series" element={<Series />} />
+          <Route path="/details/:type/:id/:title" element={<Details />} />
         </Routes>
       <Footer />
     </div>
